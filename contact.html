@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta chrarset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Jacey Hallock - Developer Portfolio - Contact</title>
+        <link rel="icon" type="image/png" href= "img/favicon-32x32.png">
+        <link rel="shortcut icon" href="img/favicon-32x32.png"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <!--the three links below are all font-->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Lato&family=Raleway&display=swap" rel="stylesheet">
+		<!--the three links above are all font-->
+        <link rel="stylesheet" type="text/css" href="css/style.production.css">
+    </head>
+    <body>
+        <!-- Header including the logo and the main navigation -->
+        <header class="page-header">
+            <img src="img/jaceyhallock-logo1.png" class="page-header__item" alt="Personal logo of Jacey Hallock, a graphic of three squares and text logo in uppercase letters that consists of my name" >
+        <nav class="main-navigation page-header__item">
+            <ul role="menubar" class="navigation-list">
+                <li role="presentation">
+                    <a href="index.html" role="menuitem" class="navigation-list__item" >Home</a>
+                </li>
+                <li role="presentation">
+                    <a href="about.html" role="menuitem" class="navigation-list__item" >About</a>
+                </li>
+                <li role="presentation">
+                    <a href="contact.html" role="menuitem" class="navigation-list__item navigation-list__item--active" >Contact</a>
+                </li>
+                <li role="presentation">
+                    <a href="work.html" role="menuitem" class="navigation-list__item" >My Work</a>
+                </li>
+            </ul>
+        </nav>
+        </header>
+        <div class="contact-item">
+        <h1> Contact </h1>
+        </div>
+        <div class="contact-item">
+        Tel <a href="tel:+15704017032" id="telephone">+1 570-401-7032</a><br>
+        <br>
+        Email <a href="mailto:jacey.hallock@gmail.com" id="email">jacey.hallock@gmail.com</a><br>
+        <a href="mailto:jacey.hallock@gmail.com"><button type="button">Contact me!</button></a>
+        </div>
+        <form action="" method="post" id="contact-frm">
+            <br>
+            <label class="standard-lable" for="contact-email">Email: * </label>
+            <input type="email" id="contact-email" required><br>
+            <br>
+            <label class="standard-lable" for="contact-telephone">Phone:   </label>
+            <input type="tel" id="contact-telephone" pattern="\d{3}[\-]\d{3}[\-]\d{4}"><br>
+            <br>
+            <label class="standard-lable" for="contact-msg">Message: * </label>
+            <textarea maxlenghth="240" id="contact-msg" required></textarea><br>
+            <input type="submit" value="Send message">
+        </form>
+        <footer class="page-footer">
+            <p> Find me on</p>
+            <div class="social-media">
+                <img src="img/github_icon.svg" alt="Github">
+                <img src="img/twitter_icon.svg" alt="Twitter">
+                <img src="img/linkedin_icon.svg" alt="LinkedIn">
+            </div>
+        </footer>
+    <script src="js/tota11y.min.js"></script>
+    </body>
+</html>
