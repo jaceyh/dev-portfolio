@@ -197,7 +197,7 @@ Secondary Color (Salmon) #d89d97;
   
   /* BODY */
   .profile__portrait {
-    float:inline-start;
+    float:left;
     width: 250px;
     max-width: 320px;
     margin-right: 45px;
