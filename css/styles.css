@@ -223,6 +223,10 @@ button:hover, button:focus,
   text-align: center;
 }
 
+.center {
+    width: 300px;
+}
+
 .philly-vector {
   display:flex;
   align-items:center;
