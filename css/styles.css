@@ -212,6 +212,13 @@ button:hover, button:focus,
   margin: 20px;
 }
 
+.project-img {
+    height: 150px;
+    width: auto;
+    border-radius: 20%;
+    padding: 10px;
+}
+
 .about-list {
   display: block;
   padding: 20px;
