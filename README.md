@@ -1,0 +1,1 @@
+Welcome to my personal portfolio website.  I'm glad you're here!  Please feel free to look through the site to find out more about me and view the exciting web development projects I've worked on over the past year.
