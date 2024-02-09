@@ -89,7 +89,7 @@ a:hover, a:focus {
 }
 
 a:visited {
-  color: indigo;
+  color: #66ddff;
 }
 
 button, 
@@ -170,6 +170,7 @@ button:hover, button:focus,
   list-style-type: none;
   margin: auto;
   text-indent: none;
+  text-align: start;
 }
 
 /* BODY */
@@ -219,26 +220,19 @@ button:hover, button:focus,
     padding: 10px;
 }
 
+
 .about-list {
   display: block;
   padding: 20px;
-  margin: 0
+  margin: 0;
+  text-align: left;
 }
 
 .about-item {
   padding: 20px;
-  text-align: center;
+  text-align: left;
 }
 
-.center {
-    width: 300px;
-}
-
-.philly-vector {
-  display:flex;
-  align-items:center;
-  justify-content:center;
-}
 
 .contact-item {
   display:block;
