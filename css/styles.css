@@ -103,6 +103,7 @@ button,
   display: inline-block;
   /* takes the font from the outer container */
   font-family: inherit;
+  font-weight: 500;
   /* styles the background color, font color, and text decoration (underline, etc.) of the button */
   background-color: var(--primary-color);
   color: white;
@@ -241,6 +242,7 @@ button:hover, button:focus,
 .contact-item {
   display:block;
   padding: 20px;
+  margin: 20px;
   text-align: center;
 }
 
