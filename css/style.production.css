@@ -127,8 +127,8 @@ h1 {
   
   /* HEADER SHOWCASE */
 
-  #showcase {
-    min-height: 450px;
+#showcase {
+    min-height: 500px;
     color: var(--primary-font-color);
     text-align: center;
 }
@@ -144,14 +144,14 @@ h1 {
 }
 
 .profile-portrait {
-    position:absolute;
+    position: absolute;
     width: 250px;
-    max-width: 320px;
-    margin:auto;
+    margin: auto;
     margin-top: -125px;
-    left:0;
-    right:0;
+    left: 0;
+    right: 0;
     border-radius: 50%;
+    align-items: center;
   }
   
 
