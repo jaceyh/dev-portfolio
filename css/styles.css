@@ -60,10 +60,6 @@ a:hover, a:focus {
   opacity: 0.8;
 }
 
-a:visited {
-  color: #66ddff;
-}
-
 button, 
 .button {
   /* overwrites browser defaults and resets the border */
@@ -229,7 +225,7 @@ button:hover, button:focus,
 }
 
 .project-img {
-    max-height: 80px;
+    max-height: 250px;
     width: auto;
     border-radius: 20%;
     padding: 10px;
@@ -239,12 +235,12 @@ button:hover, button:focus,
   display: block;
   padding: 20px;
   margin: 0;
-  text-align: left;
+  text-align: center;
 }
 
 .about-item {
   padding: 20px;
-  text-align: left;
+  text-align: center;
 }
 
 .contact-item {
@@ -254,19 +250,13 @@ button:hover, button:focus,
   text-align: center;
 }
 
-.contact-frm {
-  display:block;
-  margin-left: 20%;
-  border: 2px #535353;
-}
-
 /* FOOTER */
 .page-footer {
   clear:both;
   display: flex;
   flex-direction: column;
   text-align: center;
- }
+}
 
  @media all and (max-width: 550px) {
   .project-list {
