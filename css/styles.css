@@ -28,11 +28,6 @@ body {
   scroll-behavior: smooth;
 }
 
-div {
-  padding: 10px;
-  margin: 20px;
-}
-
 .center {
     width: 300px;
 }
@@ -120,12 +115,24 @@ button:hover, button:focus,
 .box-one {
     min-height: 180px;
     background: var(--secondary-color);
-  }
+}
   
 .box-two {
     position: relative;
     background: var(--background-color);
 }
+
+.profile-portrait {
+    position:absolute;
+    width: 250px;
+    max-width: 320px;
+    margin:auto;
+    margin-top: -90px;
+    left:0;
+    right:0;
+    border-radius: 50%;
+  }
+  
 
 #showcase h1 {
     margin-top: 0.5em;
@@ -145,6 +152,11 @@ button:hover, button:focus,
     border-color: var(--primary-color);
     color: var(--primary-color);
     margin: 1em;
+}
+
+.button-text {
+    display: flex;
+    align-items: center;
 }
   
 
