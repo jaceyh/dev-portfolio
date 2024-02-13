@@ -6,7 +6,6 @@ Secondary Color (Salmon) #d89d97;
  */
 
  /* || GENERAL STYLES */
-
 :root {
   --primary-color: #1d7f9f;
   --secondary-color: #d89d97;
@@ -73,7 +72,6 @@ button,
   /* takes the font from the outer container */
   font-family: inherit;
   font-weight: 500;
-  /* styles the background color, font color, and text decoration (underline, etc.) of the button */
   background-color: var(--primary-color);
   color: white;
   text-decoration: none;
