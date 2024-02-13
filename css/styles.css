@@ -42,13 +42,6 @@ h1 {
   padding: 10px;
 }
 
-.h1-opp {
-  color: var(--tertiary-color);
-  font-size: 30px;
-  font-weight: var(--h-font-weight);
-  letter-spacing: 4px;
-}
-
 .index-text{
   text-justify: left;
 }
@@ -65,11 +58,6 @@ h3 {
 
 a {
   color: var(--primary-color);
-}
-
-.a-opp {
-  color: var(--contrast-color);
-  transition: 0.5s opacity;
 }
   
 a:hover, a:focus {
@@ -192,7 +180,7 @@ button:hover, button:focus,
 .project-list {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 10px;
+  grid-gap: 8px;
   margin: 0
 }
 
@@ -259,50 +247,4 @@ button:hover, button:focus,
     grid-column: auto / auto;
     grid-row: auto / auto;
   }
-  .h2-opp {
-    font-size: 22px;
-  }
-}
-
-@keyframes color-change {
-  0% {
-    fill: #edc655;
-  }
-  50% {
-    fill: #f4f802
-  }
-  100% {
-    fill: #f8b653;
-  }
-}
-
-@keyframes plane-move {
-  from {
-    transform: translate(0, 50px);
-  }
-  to {
-    transform: translate(900px, 50px);
-  }
-}
-
-@keyframes balloon-rise {
-  from {
-    transform: translate(0, 50px)
-  }
-  to {
-    transform: translate(0,420px)
-  }
-}
-
-.sun,
-.clocklight {  
-  animation: 4s color-change infinite alternate linear;
-}
-
-.plane {
-  animation: 15s plane-move infinite alternate linear;
-  }
-
-.balloon {
-  animation: 20s balloon-rise infinite alternate linear;
 }

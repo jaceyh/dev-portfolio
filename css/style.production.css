@@ -34,13 +34,6 @@ Secondary Color (Salmon) #d89d97;
     padding: 10px;
   }
   
-  .h1-opp {
-    color: #F6D5A3;
-    font-size: 30px;
-    font-weight: 600;
-    letter-spacing: 4px;
-  }
-  
   .index-text{
     text-justify: left;
   }
@@ -49,26 +42,11 @@ Secondary Color (Salmon) #d89d97;
     font-size: 24px;
     font-weight: 600;
   }
-  
-  .h2-opp {
-    color: #F6D5A3;
-    font-size: 24px;
-    font-weight: 600;
-  }
+
     
   h3 {
     font-size: 18px;
     font-weight: 600;
-  }
-  
-  .h3-opp {
-    color: #f8f4f4;
-    font-size: 18px;
-    font-weight: 600;
-  }
-  
-  .p-opp {
-    color: #f8f4f4;
   }
   
   a {
@@ -263,18 +241,6 @@ Secondary Color (Salmon) #d89d97;
     border: 2px #535353;
   }
   
-  .philly-vector {
-    display:-webkit-box;
-    display:-ms-flexbox;
-    display:flex;
-    -webkit-box-align:center;
-        -ms-flex-align:center;
-            align-items:center;
-    -webkit-box-pack:center;
-        -ms-flex-pack:center;
-            justify-content:center;
-  }
-
   .center {
     margin-left: auto;
     margin-right: auto;
@@ -344,91 +310,4 @@ Secondary Color (Salmon) #d89d97;
       grid-column: auto / auto;
       grid-row: auto / auto;
     }
-    .h2-opp {
-      font-size: 22px;
-    }
-  }
-  
-  @-webkit-keyframes color-change {
-    0% {
-      fill: #edc655;
-    }
-    50% {
-      fill: #f4f802
-    }
-    100% {
-      fill: #f8b653;
-    }
-  }
-  
-  @keyframes color-change {
-    0% {
-      fill: #edc655;
-    }
-    50% {
-      fill: #f4f802
-    }
-    100% {
-      fill: #f8b653;
-    }
-  }
-  
-  @-webkit-keyframes plane-move {
-    from {
-      -webkit-transform: translate(0, 50px);
-              transform: translate(0, 50px);
-    }
-    to {
-      -webkit-transform: translate(900px, 50px);
-              transform: translate(900px, 50px);
-    }
-  }
-  
-  @keyframes plane-move {
-    from {
-      -webkit-transform: translate(0, 50px);
-              transform: translate(0, 50px);
-    }
-    to {
-      -webkit-transform: translate(900px, 50px);
-              transform: translate(900px, 50px);
-    }
-  }
-  
-  @-webkit-keyframes balloon-rise {
-    from {
-      -webkit-transform: translate(0, 50px);
-              transform: translate(0, 50px)
-    }
-    to {
-      -webkit-transform: translate(0,420px);
-              transform: translate(0,420px)
-    }
-  }
-  
-  @keyframes balloon-rise {
-    from {
-      -webkit-transform: translate(0, 50px);
-              transform: translate(0, 50px)
-    }
-    to {
-      -webkit-transform: translate(0,420px);
-              transform: translate(0,420px)
-    }
-  }
-  
-  .sun,
-  .clocklight {  
-    -webkit-animation: 4s color-change infinite alternate linear;  
-            animation: 4s color-change infinite alternate linear;
-  }
-  
-  .plane {
-    -webkit-animation: 15s plane-move infinite alternate linear;
-            animation: 15s plane-move infinite alternate linear;
-    }
-  
-  .balloon {
-    -webkit-animation: 20s balloon-rise infinite alternate linear;
-            animation: 20s balloon-rise infinite alternate linear;
   }
