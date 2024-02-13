@@ -219,7 +219,7 @@ button:hover, button:focus,
 }
 
 .project-img {
-    max-height: 100px;
+    max-height: 80px;
     width: auto;
     border-radius: 20%;
     padding: 10px;
