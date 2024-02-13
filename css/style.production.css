@@ -166,8 +166,8 @@ h1 {
 
 .button-more {
     background-color: #f8f4f4;
-    border-color: var(--primary-color);
-    color: var(--primary-color);
+    border-color:  #1d7f9f;
+    color:  #1d7f9f;
     margin: 1em;
 }
 
