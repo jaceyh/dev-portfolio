@@ -57,26 +57,10 @@ h2 {
   font-size: 24px;
   font-weight: var(--h-font-weight);
 }
-
-.h2-opp {
-  color: var(--tertiary-color);
-  font-size: 24px;
-  font-weight: var(--h-font-weight);
-}
   
 h3 {
   font-size: 18px;
   font-weight: var(--h-font-weight);
-}
-
-.h3-opp {
-  color: var(--background-color);
-  font-size: 18px;
-  font-weight: var(--h-font-weight);
-}
-
-.p-opp {
-  color: var(--background-color);
 }
 
 a {
@@ -213,9 +197,8 @@ button:hover, button:focus,
 }
 
 .project-list__item {
-  background-color:var(--dark-grey);
   padding: 10px;
-  margin: 20px;
+  margin: 10px;
 }
 
 .project-img {
@@ -224,7 +207,6 @@ button:hover, button:focus,
     border-radius: 20%;
     padding: 10px;
 }
-
 
 .about-list {
   display: block;
@@ -237,7 +219,6 @@ button:hover, button:focus,
   padding: 20px;
   text-align: left;
 }
-
 
 .contact-item {
   display:block;
