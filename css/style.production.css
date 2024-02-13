@@ -225,16 +225,7 @@ h1 {
     list-style-type: none;
     margin: auto;
     text-indent: none;
-    text-align: left;
-  }
-  
-  /* BODY */
-  .profile-portrait {
-    float:left;
-    width: 250px;
-    max-width: 320px;
-    margin-right: 45px;
-    border-radius: 50%;
+    text-align: center;
   }
   
   .profile {
@@ -294,12 +285,6 @@ h1 {
     display:block;
     padding: 10px;
     text-align: left;
-  }
-  
-  .contact-frm {
-    display:block;
-    margin-left: 20%;
-    border: 2px #535353;
   }
   
   .center {

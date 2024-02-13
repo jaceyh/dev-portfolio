@@ -194,18 +194,10 @@ button:hover, button:focus,
   list-style-type: none;
   margin: auto;
   text-indent: none;
-  text-align: left;
+  text-align: center;
 }
 
 /* BODY */
-.profile-portrait {
-  float:left;
-  width: 250px;
-  max-width: 320px;
-  margin-right: 45px;
-  border-radius: 50%;
-}
-
 .profile {
   max-width: 750px;
   margin: 0 auto;
