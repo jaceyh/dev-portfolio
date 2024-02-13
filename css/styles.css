@@ -189,7 +189,7 @@ button:hover, button:focus,
 }
 
 /* BODY */
-.profile__portrait {
+.profile-portrait {
   float:left;
   width: 250px;
   max-width: 320px;
