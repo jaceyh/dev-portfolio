@@ -24,6 +24,8 @@ body {
   font-weight: 400;
   font-size: var(--main-font-size);
   line-height: 1.6;
+  text-align: center;
+  scroll-behavior: smooth;
 }
 
 div {
@@ -80,20 +82,15 @@ button,
   background-color: var(--primary-color);
   color: white;
   text-decoration: none;
-  /*adds spacing to the button (this will be discussed more in-depth later) */
   padding: 10px;
-  border-radius: 3px;
-  /* gives the button a bottom border with a width of 2px, a type of solid, and a color in RGBA format */
-  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+  border-radius: 2px;
   transition-duration: 0.5s opacity;
 }
 
 button:hover, button:focus,
 .button:hover, .button:focus {
-  /* lets the mouse appear as a hand when hovering over the button */
   cursor: pointer;
-  /* reduces the opacity of the button to 80% */
-  opacity: 0.8;
+  opacity: 0.75;
 }
 
 .button__secondary {
@@ -108,9 +105,50 @@ button:hover, button:focus,
 
 * {
   box-sizing: border-box;
+  margin:0;
+  padding:0;
 }
 
-/* HEADER */
+/* HEADER SHOWCASE */
+
+#showcase {
+    min-height: 450px;
+    color: var(--primary-font-color);
+    text-align: center;
+}
+
+.box-one {
+    min-height: 180px;
+    background: var(--secondary-color);
+  }
+  
+.box-two {
+    position: relative;
+    background: var(--background-color);
+}
+
+#showcase h1 {
+    margin-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+  
+#showcase .content-container {
+    padding: 6em 1.5em 0;
+}
+  
+#showcase p {
+    padding-bottom: 1.5em;
+}
+
+.button-more {
+    background-color: #f8f4f4;
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+    margin: 1em;
+}
+  
+
+/* HEADER LOGO & NAV BAR */
 .page-header {
   display: flex;
   max-width: 100%;

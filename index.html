@@ -15,8 +15,24 @@
         <link rel="stylesheet" type="text/css" href="css/style.production.css">
     </head>
     <body>
-        <!-- Header including the logo and the main navigation -->
-        <header class="page-header">
+        <!-- Header Showcase -->
+        <header id="showcase">
+            <div class="box-one"></div>
+            
+            <div class="box-two"></div>
+                <div class="img-container">
+                    <img src="img/coverphoto1.png" class="profile-portrait" alt="photo of Jacey Hallock">
+                </div>
+            <div class="content-container">
+                <h1 class="profile__text">Hello, I'm Jacey Hallock.</h1>
+                <p class="profile__text">I am a <span class="profile__highlight">full-stack web developer</span> from Northeastern Pennsylvania.</p>
+                <a href="#about" class="button-more"
+                ><span class="btn-text">More about me</span>
+                </a>
+            </div>
+        </header>
+        <!-- logo and navigation -->
+        <div class="page-header">
             <img src="img/jaceyhallock-logo1.png" class="page-header__item" alt="Personal logo of Jacey Hallock, a graphic of three squares and text logo in uppercase letters that consists of Jacey Hallock's name" >
             <nav class="main-navigation page-header__item">
                 <ul role="menubar" class="navigation-list">
@@ -24,33 +40,154 @@
                         <a href="index.html" role="menuitem" class="navigation-list-__item navigation-list__item--active">Home</a>
                     </li>
                     <li role="presentation">
-                        <a href="about.html" role="menuitem" class="navigation-list__item" >About</a>
+                        <a href="#about" role="menuitem" class="navigation-list__item" >About</a>
                     </li>
                     <li role="presentation">
-                        <a href="contact.html" role="menuitem" class="navigation-list__item" >Contact</a>
+                        <a href="#contact" role="menuitem" class="navigation-list__item" >Contact</a>
                     </li>
                     <li role="presentation">
-                        <a href="work.html" role="menuitem" class="navigation-list__item" >My Work</a>
+                        <a href="#work" role="menuitem" class="navigation-list__item" >My Work</a>
                     </li>
                 </ul>
             </nav>
-        </header>
-        <main class="profile">
-            <img src="img/coverphoto1.png" class="profile__portrait" alt="photo of Jacey Hallock">
-            <div>
-                <h1 class="profile__text"> Hello World!</h1>
-            </div>
-            <p class="profile__text"> My name is Jacey Hallock.  I am a <span class="profile__highlight">   web developer</span> from Philadelphia, Pennsylvania.</p>
-            <a href="work.html"> <button type="button">Check out some of my code</button></a>
+        </div>
+        <!-- Main section -->
+
+        <main id="main">
+            <!-- About section -->
+            <section id="about">
+                <h1>About</h1>
+                <div class="about-item">
+                    <h2>Hello, I'm Jacey</h2>
+                    <p> Web Developer</p>
+                    <p> Northeastern Pennsylvania</p>
+                </div>
+
+                <div class="skills-grid">
+                    <h3>Here are some things I enjoy:</h3>
+                    <ul class="about-list">
+                        <li role="presentation">Frontend development</li>
+                        <li role="presentation">Backend development</li>
+                        <li role="presentation">Rock Climbing</li>
+                        <li role="presentation">Live Music</li>
+                        <li role="presentation">Cuddling with my cats</li>
+                        <li role="presentation"> 
+                            <img src="img/cats.png"
+                             width="400"></li>
+                        <li role="presentation">
+                            <a href="files/JaceyHallock_Resume_6.23.pdf" class="button" download>Download my Resume</a></li>
+                        <li role="presentation">
+                            <a href="work.html"> <button type="button">Check out some of my code</button></a></li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="dev-skills">
+                <table class="center">
+                    <thead>
+                      <tr>
+                        <th>Skills</th>
+                        <th>Years of Experience</th>
+                        <th>Level of Expertise</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>HTML</td>
+                        <td>2</td>
+                        <td>Proficient</td>
+                      </tr>
+                      <tr>
+                        <td>CSS</td>
+                        <td>2</td>
+                        <td>Proficient</td>
+                      </tr>
+                      <tr>
+                        <td>JavaScript</td>
+                        <td>1.5</td>
+                        <td>Proficient</td>
+                      </tr>
+                      <tr>
+                        <td>React</td>
+                        <td>1</td>
+                        <td>Proficient</td>
+                      </tr>
+                      <tr>
+                        <td>Data Administration</td>
+                        <td>5</td>
+                        <td>Advanced</td>
+                      </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <!-- Work Section -->
+            <section id="work">
+                <h1>Work</h1>
+                <div class="project-list">
+                    <div class="project-list__item">
+                        <h2>Pokedex App</h2>
+                        <img class="project-img" src="img/pokedexapp.png"/>
+                        <p>
+                           Within this project, I was responsible for the frontend. The app fetches from the open source Pokedex API. It’s written using JavaScript. Additionally, I've created the HTML and CSS templates with some CSS assistance from Bootstrap.
+                        </p>
+                        <a href="https://github.com/jaceyh/simple-js-pokedex">Check out this project on GitHub</a>
+                        <br>
+                        <a href="https://jaceyh.github.io/simple-js-pokedex/">Check out this project live</a>
+                    </div>
+                    <div class="project-list__item">
+                        <h2>Movie API (full stack)</h2>
+                        <img class="project-img" src="img/jddbapp.png"/>
+                        <p>
+                        Within this project, I first created the documentary movie database in PostgreSQL to become familiar with relational database systems. The final version of the API has been created using MongoDB, Express, and Node.js. Additionally, I've used Postman to test all of endpoints.  The API portion of the app is deployed through Heroku.
+                        After, I created a single page application for the frontend client side to go with my documentary movie API. The app uses React.js to complete the MERN stack.
+                        </p>
+                        <p>Check out this project on Github:</p>
+                        <br>
+                        <a href="https://github.com/jaceyh/jMDB-API">Backend</a>
+                        <br>
+                        <a href="https://github.com/jaceyh/jMDB-client">Frontend</a>
+                        <br>
+                        <a href="https://jddb.netlify.app/login">Check out this project live!</a>
+                     </div>
+                     <div class="project-list__item">
+                        <h2>Meet App</h2>
+                        <img class="project-img" src="img/meetapp.png"/>
+                        <p>
+                        This app is a a serverless, progressive web application (PWA) with React using a test-driven development (TDD) technique. The application uses the Google Calendar API to fetch upcoming events and uses the OAuth2 authentication flow to authenticate visitors. Users can discover events from various cities and data is displayed using tools from Recharts.
+                        </p>
+                        <a href="https://github.com/jaceyh/meet">Check out this project on Github.</a>
+                        <a href="https://jaceyh.github.io/meet/">Check out the live app!</a>
+                     </div>
+                     <div class="project-list__item">
+                        <h2>Chat App</h2>
+                        <img class="project-img" src="img/chatapp.png"/>
+                        <p>
+                           Chat App is a mobile messaging app created with React Native. It features a customizable messaging interface and provides users the ability to chat, and send images and locations. The app was developed and tested using Expo and functionality from React Native Gifted Chat.
+                        </p>
+                        <a href="https://github.com/jaceyh/chat">See project on GitHub</a>
+                     </div>
+                </div>
+            </section>
+            <!-- Contact Section -->
+            <section id="contact">
+                <div class="contact-container">
+                    <h1>Contact</h1>
+                    <div class="contact-item">
+                        Tel <a href="tel:+15704017032" id="telephone">+1 570-401-7032</a><br>
+                        Email <a href="mailto:jacey.hallock@gmail.com" id="email">jacey.hallock@gmail.com</a><br>
+                        <a href="mailto:jacey.hallock@gmail.com"><button type="button">Contact me!</button></a>
+                    </div>
+                </div>
+            </section>
         </main>
         <footer class="page-footer">
             <p>Find me on</p>
             <div class="social-media">
-                <img src="img/github_icon.svg" alt="Github">
-                <img src="img/twitter_icon.svg" alt="Twitter">
-                <img src="img/linkedin_icon.svg" alt="LinkedIn">
+                <img src="img/github_icon.svg" href="https://github.com/jaceyh" alt="Github">
+                <img src="img/twitter_icon.svg" href="https://twitter.com/jaceyhaa" alt="Twitter">
+                <img src="img/linkedin_icon.svg" href="https://www.linkedin.com/in/jacey-hallock/" alt="LinkedIn">
             </div>
         </footer>
-    <script src="js/tota11y.min.js"></script>
     </body>
 </html>
