@@ -167,8 +167,11 @@ h1 {
 .button-more {
     background-color: #f8f4f4;
     border-color:  #1d7f9f;
+    border-width: 2px;
     color:  #1d7f9f;
+    font-weight: 500;
     margin: 1em;
+    align-items: flex-end;
 }
 
 .button-text {
