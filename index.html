@@ -11,7 +11,8 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Raleway&display=swap" rel="stylesheet">
-		<!--the three links above are all font-->
+		<!--the links below are material elements-->
+        <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL@20..48,100..700,0..1"  rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="css/style.production.css">
     </head>
     <body>
@@ -27,7 +28,8 @@
             <div class="content-container">
                 <h1 class="profile__text">Hello, I'm Jacey Hallock.</h1>
                 <p class="profile__text">I am a <span class="profile__highlight">full-stack web developer</span> from Northeastern Pennsylvania.</p>
-                <p class="profile__text">I primarily use JavaScript and am most familiar with the MERN stack.</p>
+                <p class="profile__text">I primarily use JavaScript and enjoy with the MERN stack.</p>
+                <p class="profile__text"> I'm always enthusiastic about learning new technologies and very interested in collaborating to gain new insights and experiences. </p>
                 <a href="#about" class="button-more"><span class="button-text">More about me</span>
                 </a>
             </div>
@@ -36,20 +38,23 @@
         <div class="page-header">
             <img src="img/jaceyhallock-logo1.png" class="page-header__item" alt="Personal logo of Jacey Hallock, a graphic of three squares and text logo in uppercase letters that consists of Jacey Hallock's name" >
             <nav class="main-navigation page-header__item">
-                <ul role="menubar" class="navigation-list">
-                    <li role="presentation">
+                <div class="hamburger"><span class="rounded"><md-icon>menu</md-icon></span></div>
+                <div class="menu-container">
+                    <ul role="menubar" class="navigation-list">
+                        <li role="presentation">
                         <a href="index.html" role="menuitem" class="navigation-list-__item navigation-list__item--active">Home</a>
-                    </li>
-                    <li role="presentation">
+                        </li>
+                        <li role="presentation">
                         <a href="#about" role="menuitem" class="navigation-list__item" >About</a>
-                    </li>
-                    <li role="presentation">
+                        </li>
+                        <li role="presentation">
                         <a href="#contact" role="menuitem" class="navigation-list__item" >Contact</a>
-                    </li>
-                    <li role="presentation">
+                        </li>
+                        <li role="presentation">
                         <a href="#work" role="menuitem" class="navigation-list__item" >My Work</a>
-                    </li>
-                </ul>
+                        </li>
+                    </ul>
+                </div>
             </nav>
         </div>
         <!-- Main section -->
