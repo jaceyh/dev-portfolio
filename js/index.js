@@ -17,15 +17,15 @@ function hideMenu() {
     }
 }
   
-menuList = document.querySelector('.menu');
-menuList.addEventListener('click', hideMenu);
+navList = document.querySelector('.navigation-list');
+navList.addEventListener('click', hideMenu);
 
 // Add active class to currently clicked menu-item
-let menuItems = document.querySelectorAll('.menu-item');
+let navItems = document.querySelectorAll('.navigation-list__item');
   
-menuItems.forEach(menuItem => {
-    menuItem.addEventListener('click', function () {
-        menuItems.forEach(item => item.classList.remove('active'));
+navItems.forEach(navItem => {
+    navItem.addEventListener('click', function () {
+        navItems.forEach(item => item.classList.remove('active'));
         this.classList.add('active');
     });
 });
