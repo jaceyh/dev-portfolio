@@ -130,7 +130,7 @@ button:hover, button:focus,
     position: absolute;
     width: 250px;
     margin: auto;
-    margin-top: -150px;
+    margin-top: -125px;
     left: 0;
     right: 0;
     border-radius: 50%;
@@ -166,6 +166,11 @@ button:hover, button:focus,
 
 .button-text {
     display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     font-weight: 600;
 }
