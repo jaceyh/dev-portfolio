@@ -173,7 +173,7 @@ md-icon {
     color: #006A6A;
     --md-icon-size: 48px;
 }
-.rounded {
+md-icon.rounded {
     --md-icon-font: 'Material Symbols Rounded';
 }
 
