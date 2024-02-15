@@ -272,14 +272,7 @@ md-icon[filled] {
 .navigation-list__item--active {
     text-decoration: none;
     font-weight: bolder;
-  }
-  
-.about-list li {
-    list-style-type: none;
-    margin: auto;
-    text-indent: none;
-    text-align: center;
-  }
+}
   
 .profile {
     max-width: 750px;
@@ -332,6 +325,13 @@ md-icon[filled] {
     padding: 20px;
     text-align: center;
 }
+
+.about-list li {
+    list-style-type: none;
+    margin: auto;
+    text-indent: none;
+    text-align: center;
+  }
 
 .contact-item {
     display:block;
@@ -394,12 +394,49 @@ tbody td:nth-child(1) {
       -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
     }
+    .hamburger {
+        display: none;
+    }
+    
+    .menu-container {
+        display: block;
+    }
+    
+    .navigation-list__item {
+        display: block;
+        width: auto;
+        padding: 1em;
+      }
+    
+    .navigation-list__item--active {
+        padding: 0.2em 0.5em;
+    }
     }
   
 @media all and (min-width: 550px) and (max-width: 800px){
     .project-list {
       -ms-grid-columns: 1fr 10px 1fr;
       grid-template-columns: 1fr 1fr;
+    }
+    .navigation-list {
+        padding: 0 2em;
+    }
+    .hamburger {
+        display: none;
+    }
+    
+    .menu-container {
+        display: block;
+    }
+    
+    .navigation-list__item {
+        display: block;
+        width: auto;
+        padding: 1em;
+      }
+    
+    .navigation-list__item--active {
+        padding: 0.2em 0.5em;
     }
   }
 
