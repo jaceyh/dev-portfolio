@@ -203,21 +203,6 @@ md-icon[filled] {
     'opsz' 48
 }
 
-.hamburger {
-    display: -webkit-box;
-     display: -ms-flexbox;
-     display: flex;
-        -webkit-box-pack: end;
-        -ms-flex-pack: end;
-    justify-content: right;
-    margin: 10;
-    cursor: pointer;
-}
-
-.hamburger.hidden{
-    display: none;
-}
-
 .page-header {
     position: sticky;
     position: -webkit-sticky;
@@ -252,11 +237,8 @@ md-icon[filled] {
 }
   
   /* NAV */
-.menu-container {
-    display: none;
-}
 
-.menu-container.visible {
+.menu-container {
     display: block;
 }
 
@@ -396,9 +378,6 @@ tbody td:nth-child(1) {
       -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
     }
-    .hamburger {
-        display: none;
-    }
     
     .menu-container {
         display: block;
@@ -422,9 +401,6 @@ tbody td:nth-child(1) {
     }
     .navigation-list {
         padding: 0 2em;
-    }
-    .hamburger {
-        display: none;
     }
     
     .menu-container {
