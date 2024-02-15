@@ -15,6 +15,10 @@ Secondary Color (Salmon) #d89d97;
     --contrast-color:  #66ddff;
     --main-font-size: 16px;
     --h-font-weight: 600;
+    --md-filled-button-container-shape: 25px;
+    --md-filled-button-label-text-font: system-ui;
+    --md-sys-color-primary: #006A6A;
+    --md-sys-color-on-primary: #FFFFFF;
   }
   
  body {
@@ -150,7 +154,7 @@ button:hover, button:focus,
 #showcase p {
     padding-bottom: 1.5em;
 }
-
+/*
 .more-button {
     background-color: #f8f4f4;
     border-color:  #1d7f9f;
@@ -162,7 +166,7 @@ button:hover, button:focus,
     margin: 10px;
     padding: 20px;
     align-items: flex-end;
-}
+}*/
 
 .button-text {
     display: flex;

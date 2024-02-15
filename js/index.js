@@ -1,3 +1,5 @@
+import '@material/web/button/filled-button.js';
+
 // Toggle menu on small screens
 function toggleMenu() {
     let menu = document.querySelector('.menu-container');
