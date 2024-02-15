@@ -121,6 +121,7 @@ button:hover, button:focus,
 }
 
 .box-one {
+    margin-top: 100px;
     min-height: 250px;
     background: var(--secondary-color);
 }
@@ -213,12 +214,6 @@ md-icon[filled] {
     cursor: pointer;
 }
 
-.page-header-container {
-    position: absolute;
-    min-height: 100px;
-    background-color: #f8f4f4;
-}
-
 .page-header {
     position: absolute;
     top: 0;
@@ -228,6 +223,8 @@ md-icon[filled] {
     display: -ms-flexbox;
     display: flex;
     max-width: 100%;
+    min-height: 100px;
+    background-color: #f8f4f4;
 }
   
 .page-header__item {
