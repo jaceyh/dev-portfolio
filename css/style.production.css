@@ -144,16 +144,16 @@ button:hover, button:focus,
   
 
 #showcase h1 {
-    margin-top: 0.5em;
+    margin-top: 0.75em;
     padding-bottom: 0.5em;
 }
   
 #showcase .content-container {
-    padding: 2em 1.5em 2em;
+    padding: 6em 1.5em 0;
 }
   
 #showcase p {
-    padding-bottom: 1em;
+    padding-bottom: 1.5em;
 }
 
 .more-button {
@@ -386,10 +386,13 @@ tbody td:nth-child(1) {
     .navigation-list__item {
         display: block;
         width: auto;
-        padding: 1em;
+        padding: 0.2em;
       }
     
+    .navigation-list__item--active {
+        padding: 0.2em 0.5em;
     }
+}
   
 @media all and (min-width: 550px) and (max-width: 800px){
     .project-list {
@@ -409,7 +412,10 @@ tbody td:nth-child(1) {
         width: auto;
         padding: 1em;
       }
-
+    
+    .navigation-list__item--active {
+        padding: 0.2em 0.5em;
+    }
   }
 
 /* shared code */
