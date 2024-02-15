@@ -214,6 +214,10 @@ md-icon[filled] {
     cursor: pointer;
 }
 
+.hamburger.hidden{
+    display: none;
+}
+
 .page-header {
     top: 0;
     padding: 20px;
@@ -222,7 +226,7 @@ md-icon[filled] {
     display: -ms-flexbox;
     display: flex;
     max-width: 100%;
-    min-height: 70px;
+    min-height: 30px;
     background-color: #f8f4f4;
 }
   

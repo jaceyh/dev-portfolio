@@ -1,10 +1,11 @@
+let menu = document.querySelector('.menu-container');
+let hamburger = document.querySelector('.hamburger');
+
 // Toggle menu on small screens
 function toggleMenu() {
-    let menu = document.querySelector('.menu-container');
     menu.classList.toggle('visible');
+    hamburger.classList.toggle('hidden');
 }
-  
-let hamburger = document.querySelector('.hamburger');
   
 hamburger.addEventListener('click', toggleMenu);
   
