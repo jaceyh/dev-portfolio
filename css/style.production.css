@@ -334,6 +334,7 @@ md-icon[filled] {
   }
 
 .contact-container {
+    max-width: 300px;
     align-items: center;
     display:block;
     padding: 10px;
