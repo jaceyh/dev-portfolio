@@ -184,8 +184,8 @@ button:hover, button:focus,
 /*HEADER LOGO & NAV BAR */
 
 md-icon {
-    color: #006A6A;
-    --md-icon-size: 48px;
+    color: #535353;
+    --md-icon-size: 56px;
 }
 md-icon.rounded {
     --md-icon-font: 'Material Symbols Rounded';
@@ -209,7 +209,7 @@ md-icon[filled] {
      display: flex;
         -webkit-box-pack: end;
         -ms-flex-pack: end;
-    justify-content: flex-end;
+    justify-content: right;
     margin: 10;
     cursor: pointer;
 }
@@ -223,7 +223,7 @@ md-icon[filled] {
     display: -ms-flexbox;
     display: flex;
     max-width: 100%;
-    min-height: 100px;
+    min-height: 80px;
     background-color: #f8f4f4;
 }
   
