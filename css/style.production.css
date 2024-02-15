@@ -154,19 +154,19 @@ button:hover, button:focus,
 #showcase p {
     padding-bottom: 1.5em;
 }
-/*
+
 .more-button {
     background-color: #f8f4f4;
+    border:#1d7f9f;
     border-color:  #1d7f9f;
     border-width: 2px;
     border-radius: 2px;
     color:  #1d7f9f;
     display: inline-block;
-    font-weight: 600;
     margin: 10px;
     padding: 20px;
     align-items: flex-end;
-}*/
+}
 
 .button-text {
     display: flex;
@@ -176,7 +176,7 @@ button:hover, button:focus,
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    font-weight: 600;
+    font-weight: 800;
 }
   
 
@@ -211,6 +211,10 @@ md-icon[filled] {
     justify-content: flex-end;
     margin: 10;
     cursor: pointer;
+}
+
+.page-header-container {
+    background-color: #f8f4f4;
 }
 
 .page-header {
