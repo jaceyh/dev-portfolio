@@ -214,12 +214,13 @@ md-icon[filled] {
 }
 
 .page-header-container {
+    position: absolute;
+    min-height: 100px;
     background-color: #f8f4f4;
 }
 
 .page-header {
-    position: -webkit-sticky;
-    position: sticky;
+    position: absolute;
     top: 0;
     padding: 20px;
     z-index: 1;
@@ -250,7 +251,7 @@ md-icon[filled] {
 }
 
 .menu-container.visible {
-    display: block;
+    display: inline-block;
 }
 
 .navigation-list {
