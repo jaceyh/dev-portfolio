@@ -251,7 +251,7 @@ md-icon[filled] {
 }
 
 .menu-container.visible {
-    display: inline-block;
+    display: block;
 }
 
 .navigation-list {
