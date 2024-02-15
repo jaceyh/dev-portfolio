@@ -215,7 +215,6 @@ md-icon[filled] {
 }
 
 .page-header {
-    position: absolute;
     top: 0;
     padding: 20px;
     z-index: 1;
@@ -223,7 +222,7 @@ md-icon[filled] {
     display: -ms-flexbox;
     display: flex;
     max-width: 100%;
-    min-height: 80px;
+    min-height: 70px;
     background-color: #f8f4f4;
 }
   
