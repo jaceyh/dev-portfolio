@@ -121,7 +121,7 @@ button:hover, button:focus,
 }
 
 .box-one {
-    margin-top: 50px;
+    margin-top: 20px;
     min-height: 250px;
     background: var(--secondary-color);
 }
