@@ -205,8 +205,6 @@ md-icon[filled] {
 }
   
 .page-header__item {
-    position: fixed;
-    position: -webkit-fixed;
     -webkit-box-flex: 0;
         -ms-flex: 0 1 200px;
             flex: 0 1 200px;
@@ -214,8 +212,6 @@ md-icon[filled] {
 }
     
 .page-header__item:last-child {
-    position: fixed;
-    position: -webkit-fixed;
     -webkit-box-flex: 1;
         -ms-flex-positive: 1;
             flex-grow: 1;
@@ -348,11 +344,10 @@ tbody td:nth-child(1) {
 }
   
 .social {
-    padding: 2.5em 0.5em 0.5em;
-    background: #e35760;
-  }
+    padding: 0.5em 0.5em 0.5em;
+}
   
-  .social ul {
+.social ul {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -368,15 +363,11 @@ tbody td:nth-child(1) {
     list-style: none;
   }
   
-  .social li {
+.social li {
     margin: 0.5em;
     padding: 0.5em;
-  }
-  
-  .social img {
-    height: 1.2em;
-    width: 1.2em;
-  }
+}
+
   
 /* FOOTER */
 .page-footer {
