@@ -121,7 +121,7 @@ button:hover, button:focus,
 }
 
 .box-one {
-    margin-top: 30px;
+    margin-top: 60px;
     min-height: 250px;
     background: var(--secondary-color);
 }
@@ -154,19 +154,6 @@ button:hover, button:focus,
   
 #showcase p {
     padding-bottom: 1.5em;
-}
-
-.more-button {
-    background-color: #f8f4f4;
-    border:#1d7f9f;
-    border-color:  #1d7f9f;
-    border-width: 2px;
-    border-radius: 2px;
-    color:  #1d7f9f;
-    display: inline-block;
-    margin: 10px;
-    padding: 20px;
-    align-items: flex-end;
 }
 
 .button-text {
@@ -360,7 +347,6 @@ tbody td:nth-child(1) {
     text-align: left;
 }
   
-
 .social {
     padding: 2.5em 0.5em 0.5em;
     background: #e35760;
