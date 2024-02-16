@@ -353,7 +353,9 @@ button:hover, button:focus,
     margin-right: auto;
     text-align: center;
 }
-  
+ 
+
+/* FOOTER */
 .social {
     padding: 0.5em 0.5em 0.5em;
 }
@@ -379,8 +381,6 @@ button:hover, button:focus,
     padding: 0.3em;
 }
 
-  
-/* FOOTER */
 .page-footer {
     clear:both;
     display: -webkit-box;
@@ -391,6 +391,7 @@ button:hover, button:focus,
         -ms-flex-direction: column;
             flex-direction: column;
     text-align: center;
+    margin-top: 10px;
 }
   
 @media all and (max-width: 550px) {
