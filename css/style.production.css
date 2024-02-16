@@ -121,6 +121,7 @@ button:hover, button:focus,
 }
 
 .box-one {
+    margin-top: 30px;
     min-height: 250px;
     background: var(--secondary-color);
 }
@@ -358,6 +359,38 @@ tbody td:nth-child(1) {
     text-indent: 10%;
     text-align: left;
 }
+  
+
+.social {
+    padding: 2.5em 0.5em 0.5em;
+    background: #e35760;
+  }
+  
+  .social ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .social li {
+    margin: 0.5em;
+    padding: 0.5em;
+  }
+  
+  .social img {
+    height: 1.2em;
+    width: 1.2em;
+  }
   
 /* FOOTER */
 .page-footer {
