@@ -395,9 +395,14 @@ button:hover, button:focus,
 }
   
 @media all and (max-width: 550px) {
+    .about-container{
+        -ms-grid-columns: 1fr 10px 1fr;
+        grid-template-columns: 1fr;
+    }
+    
     .project-list {
-      -ms-grid-columns: 1fr;
-      grid-template-columns: 1fr;
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
     }
     
     .menu-container {
@@ -416,9 +421,14 @@ button:hover, button:focus,
 }
   
 @media all and (min-width: 550px) and (max-width: 800px){
+    .about-container{
+        -ms-grid-columns: 1fr 10px 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+    
     .project-list {
-      -ms-grid-columns: 1fr 10px 1fr;
-      grid-template-columns: 1fr 1fr;
+        -ms-grid-columns: 1fr 10px 1fr;
+        grid-template-columns: 1fr 1fr;
     }
     .navigation-list {
         padding: 0 2em;
